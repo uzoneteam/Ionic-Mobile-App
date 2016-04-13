@@ -1,0 +1,48 @@
+<ion-view view-title="Profile">
+    <ion-content ng-class="{expanded:$scope.isExpanded}">
+        <div class="hero slide-up" style="background-color: black">
+            <div class="content">
+                <div class="avatar" style="background-image: url('img/avatar.jpg');"></div>
+                <h3><a class="light">Mike Davis</a></h3>
+                <h4>@mich_davis</h4>
+            </div>
+        </div>
+        <div class="tabs tabs-dark tabs-icon-top static">
+            <a ui-sref="app.activity" class="tab-item">
+                <i class="icon ion-calendar"></i> events
+            </a>
+            <a ui-sref="app.friends" class="tab-item">
+                <i class="icon ion-chatbubble"></i> chat
+            </a>
+            <a ui-sref="app.gps" class="tab-item">
+                <i class="icon ion-location"></i> GPS
+            </a>
+        </div>
+        <h4 class="content padding double-padding-x">Welcome back Mike</h4>
+        <div class="list animate-fade-slide-in-right">
+            <div class="list card">
+
+  <a href="#" class="item item-icon-left">
+    <i class="icon ion-university"></i>
+    <b>Year Attended: </b> 1998
+  </a>
+
+  <a href="#" class="item item-icon-left">
+    <i class="icon ion-briefcase"></i>
+    <b>Current Occupation: </b> Physician
+  </a>
+
+  <a href="#" class="item item-icon-left">
+    <i class="icon ion-person-stalker"></i>
+    <b>Organizations: </b> None
+  </a>
+
+  <a href="#" class="item item-icon-left">
+    <i class="icon ion-cash"></i>
+    <b>Contributions:</b> $5,000
+  </a>
+
+</div>
+        </div>
+    </ion-content>
+</ion-view>
